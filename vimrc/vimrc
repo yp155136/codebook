@@ -1,0 +1,8 @@
+se nu
+syntax on
+se t_Co=256
+se autoindent
+se ts=4 sts=0 expandtab smarttab
+se ruler
+
+inoremap {<ENTER> {}<LEFT><ENTER><ENTER><UP><TAB>
