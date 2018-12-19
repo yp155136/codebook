@@ -5,47 +5,31 @@ typedef double D;  //maybe long double
 typedef pair<D,D> pdd;
 const D eps = 1e-9;
 
-struct Circle
-{
-    D x,y,r;
-    pdd cen;
+struct Circle {
+    D x,y,r; pdd cen;
     Circle(){}
     Circle(D _x,D _y,D _r) : x(_x),y(_y),r(_r),cen(make_pair(_x,_y)){}
 };
 
-struct Cir_inter_type
-{
+struct Cir_inter_type {
     int type;
     vector<pdd> pts;
     Cir_inter_type(){}
     Cir_inter_type(int _type,vector<pdd> _pts) : type(_type),pts(_pts){}
 };
-
-#define F first
-#define S second
-
-D get_dis(pdd a,pdd b)
-{
+D get_dis(pdd a,pdd b) {
     return sqrt(pow(a.F-b.F,2) + pow(a.S-b.S,2));
 }
-
-bool eq(D a,D b)
-{
+bool eq(D a,D b) {
     return fabs(a-b) <= eps;
 }
-
-bool les(D a,D b)
-{
+bool les(D a,D b) {
     return !eq(a,b) && a<b;
 }
-
-bool leq(D a,D b)
-{
+bool leq(D a,D b) {
     return les(a,b) || eq(a,b);
 }
-
-Cir_inter_type circle_inter(Circle a, Circle b)
-{
+Cir_inter_type circle_inter(Circle a, Circle b) {
     Cir_inter_type ret;
     D dis=get_dis(a.cen,b.cen);
     if (eq(a.r+b.r,dis)) {
@@ -75,12 +59,10 @@ Cir_inter_type circle_inter(Circle a, Circle b)
         //if a is fully contain b, return type 4
         //if b is fully contain a, return type 5
         vector<pdd> pts;
-        if (les(b.r,a.r))
-        {
+        if (les(b.r,a.r)) {
             ret = Cir_inter_type(4,pts);
         }
-        else if (les(a.r,b.r))
-        {
+        else if (les(a.r,b.r)) {
             ret = Cir_inter_type(5,pts);
         }
     }
@@ -100,8 +82,7 @@ Cir_inter_type circle_inter(Circle a, Circle b)
         D cos1=(-bbb+sqrtl(bbb*bbb-4*aaa*ccc))/(aaa*2);
         D cos2=(-bbb-sqrtl(bbb*bbb-4*aaa*ccc))/(aaa*2);
         vector<pdd> pts;
-        if (eq(sin1*sin1 + cos1*cos1,1.))
-        {
+        if (eq(sin1*sin1 + cos1*cos1,1.)) {
             pts.push_back(make_pair(b.x + b.r*cos1,b.y + b.r*(sin1)));
             pts.push_back(make_pair(b.x + b.r*cos2,b.y + b.r*(sin2)));
         }

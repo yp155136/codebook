@@ -39,7 +39,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \setmainfont{FreeMono}				%主要字型
-\setmonofont{FreeMono}				%主要字型
+\setmonofont{Monaco}				%主要字型
 \setCJKmainfont{FreeMono}
 % \setCJKmainfont{FreeMono}			%中文字型
 %\setmainfont{sourcecodepro}
@@ -96,7 +96,7 @@ stringstyle=\itshape\color{Green4},
 \subsection{.vimrc}
 \lstinputlisting{basic/vimrc}
 
-\subsection{defalut code}
+\subsection{default code}
 \lstinputlisting{basic/defaultcode.cpp}
 
 \subsection{fasterIO}
@@ -108,29 +108,44 @@ stringstyle=\itshape\color{Green4},
 \subsection{black magic}
 \lstinputlisting{basic/black_magic.cpp}
 
+\subsection{Lawfung}
+\input{basic/lawfung.tex}
+
 \section{Data Structure}
 \subsection{disjoint set}
 \lstinputlisting{data_structure/DJS.cpp}
 
-\subsection{Mo's algo with modification}
-\lstinputlisting{data_structure/Mo_with_modification.cpp}
-
 \subsection{Persistent treap}
 \lstinputlisting{data_structure/persistent_treap.cpp}
-
-\subsection{Weighted interval domination}
-\lstinputlisting{data_structure/weighed_interval_domination.cpp}
 
 \subsection{Link Cut Tree}
 \lstinputlisting{data_structure/linkcut_tree.cpp}
 
 \section{Flow}
-\subsection{Flow with up down}
+\subsection{Flow with lower bound}
 \lstinputlisting{flow/flow_with_up_low.cpp}
+
+\subsection{Global Min Cut}
+\lstinputlisting{flow/Stoer_Wagner_global_mincut.cpp}
+
+\subsection{Gomory Hu Tree}
+\lstinputlisting{graph/Gomory_Hu.cpp}
 
 \section{Geometry}
 \subsection{Circle}
 \lstinputlisting{geometry/circle.cpp}
+
+\subsection{Half Plane Intersection}
+\lstinputlisting{geometry/Half_plane_inter.cpp}
+
+\subsection{Poly Union}
+\lstinputlisting{geometry/polyUnion.cpp}
+
+\subsection{Convex Hull 3D}
+\lstinputlisting{geometry/ConvexHull3D.cpp}
+
+\subsection{Convex Hull}
+\lstinputlisting{geometry/ConvexHull.cpp}
 
 \section{Graph}
 \subsection{Biconnected Component}
@@ -157,6 +172,15 @@ stringstyle=\itshape\color{Green4},
 \subsection{Heavy-Light decomposition}
 \lstinputlisting{graph/HLD.cpp}
 
+\subsection{Dynamic MST}
+\lstinputlisting{graph/dynamicMST.cpp}
+
+\subsection{Minimum Steiner Tree}
+\lstinputlisting{graph/MinimumSteinerTree.cpp}
+
+\subsection{Maximum Clique}
+\lstinputlisting{graph/maximum_clique.cpp}
+
 \section{Math}
 \subsection{Big Integer}
 \lstinputlisting{math/bigint.cpp}
@@ -164,29 +188,32 @@ stringstyle=\itshape\color{Green4},
 \subsection{FFT}
 \lstinputlisting{math/fft2.cpp}
 
+\subsection{NTT}
+\lstinputlisting{math/NTT.cpp}
+
 \subsection{FWT}
 \lstinputlisting{math/FWT.cpp}
 
 \subsection{Gauss}
 \lstinputlisting{math/gauss.cpp}
 
-\subsection{linear prime}
-\lstinputlisting{math/linear_prime.cpp}
-
-\subsection{Miller Robin}
+\subsection{Miller Rabin}
 \lstinputlisting{math/miller_robin.cpp}
 
 \subsection{Pollard Rho}
 \lstinputlisting{math/Pollard_Rho.cpp}
 
-\subsection{Phi}
+\subsection{Pi}
 \lstinputlisting{math/phi_n.cpp}
+
+\subsection{Debrujin}
+\lstinputlisting{math/debrujin.cpp}
 
 \section{String}
 \subsection{string tools}
 \lstinputlisting{string/string_tool.cpp}
 
-\subsection{AC automota}
+\subsection{Aho–Corasick algorithm}
 \lstinputlisting{string/AC_Machine.cpp}
 
 \subsection{Suffix array}
@@ -194,4 +221,57 @@ stringstyle=\itshape\color{Green4},
 
 \subsection{Lexicographically Smallest Rotation}
 \lstinputlisting{string/minimum_rotation.cpp}
+\section{Boook}
+
+\subsection{Block Tree}
+\lstinputlisting{boook/block_tree.cpp}
+
+\subsection{Dancing Link}
+\lstinputlisting{boook/DancingLinkX.cpp}
+
+\subsection{Joseph Problem}
+\lstinputlisting{boook/joseph_mlogn.cpp}
+
+\subsection{High Speed Linear Recursion}
+\lstinputlisting{boook/mid_speed_linear_recursion.cpp}
+
+\subsection{Segment Max segment sum}
+\lstinputlisting{boook/NOI_Problem.cpp}
+
+\subsection{Primitive root}
+\lstinputlisting{boook/Primitive_root.cpp}
+
+\subsection{Same remainder Equation}
+\lstinputlisting{boook/same_remainder.cpp}
+
+\subsection{Stone merge}
+\lstinputlisting{boook/stone_merge.cpp}
+
+\subsection{Range modify and query BIT}
+\lstinputlisting{boook/two_demical_bit_matrix.cpp}
+
+\subsection{Manhattan Spanning Tree}
+\lstinputlisting{boook/Mahaton_Spanning_Tree.cpp}
+
+\subsection{Integer Split}
+\lstinputlisting{boook/Integer_split.cpp}
+
+\subsection{K Cover Tree}
+\lstinputlisting{boook/KCoverTree.cpp}
+
+\subsection{Maximum M Sum}
+\lstinputlisting{boook/MaximumMSum.cpp}
+
+\subsection{Sigma Problem}
+\lstinputlisting{boook/sigma.cpp}
+
+\subsection{Range Color Online}
+\lstinputlisting{boook/yp_rangecolor.cpp}
+
+\subsection{Minimum Enclosing Cycle}
+\lstinputlisting{boook/minimum_enclosing_cycle.cpp}
+
+\subsection{Triangle}
+\lstinputlisting{boook/tri.cpp}
+
 \end{document}

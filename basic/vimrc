@@ -1,8 +1,4 @@
-se nu
 syntax on
-se t_Co=256
-se autoindent
-se ts=4 sts=0 expandtab smarttab
-se ruler
-
+se ru nu ai
+se ts=4 sts=4 sw=4 st=4 expandtab smarttab
 inoremap {<ENTER> {}<LEFT><ENTER><ENTER><UP><TAB>

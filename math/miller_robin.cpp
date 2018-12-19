@@ -1,6 +1,4 @@
-#include <iostream>
-#include <stdio.h>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 typedef long long LL;
@@ -9,8 +7,7 @@ LL mul(LL a,LL b,LL mod) {
     return a*b%mod;
     //calculate a*b % mod
     LL r=0;
-    a%=mod;
-    b%=mod;
+    a%=mod; b%=mod;
     while (b) {
         if (b&1) r=(a+r>=mod?a+r-mod:a+r);
         a=(a+a>=mod?a+a-mod:a+a);
@@ -45,22 +42,11 @@ bool miller_robin(LL n,LL a) {
 
 bool isPrime(LL n) {
     //for int: 2,7,61
-    /*LL as[7] = {2,325,9375,28178,450775,9780504,1795265022};
+    LL as[7] = {2,325,9375,28178,450775,9780504,1795265022};
     for (int i=0;7>i;i++) {
-        if (miller_robin(n,as[i]) == COMPOSITE) return COMPOSITE;
-    }*/
-    LL as[3]={2,7,61};
-    for (int i=0;3>i;i++) {
         if (miller_robin(n,as[i]) == COMPOSITE) return COMPOSITE;
     }
     return PRIME;
 }
 
-int main () {
-    LL n;
-    while (scanf("%lld",&n) != EOF) {
-        if (isPrime(n) == PRIME) puts("1");  //prime
-        else puts("0");
-    }
-}
 

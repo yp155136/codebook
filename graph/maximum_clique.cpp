@@ -1,18 +1,8 @@
-//maximum clique
-
-#include <iostream>
-#include <stdio.h>
-#include <bitset>
-#include <cstring>
-using namespace std;
-
 struct maximum_clique {
 	static const int MAX_N = 81;
 	typedef bitset<MAX_N> bst;
-	bst N[MAX_N];
-	bst empty;
-	int n;
-	int ans;
+	bst N[MAX_N],empty;
+	int n,ans;
 	void init(int _n) {
 		//point from 0 ~ n-1
 		n=_n;
@@ -39,9 +29,7 @@ struct maximum_clique {
 			if (now[v]) {
 				R[v] = true;
 				sagiri(R,P&N[v],X&N[v]);
-				R[v] = false;
-				P[v] = false;
-				X[v] = true;
+				R[v] = false; P[v] = false; X[v] = true;
 			}
 		}
 	}
@@ -53,16 +41,3 @@ struct maximum_clique {
 		return ans;
 	}
 } solver;
-
-int main () {
-	int n,m;
-	cin >> n >> m;
-	solver.init(n);
-	for (int i=0;m>i;i++) {
-		int a,b;
-		cin >> a >> b;
-		solver.add_edge(a,b);
-	}
-	cout<<solver.solve()<<endl;
-}
-

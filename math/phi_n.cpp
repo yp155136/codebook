@@ -1,4 +1,3 @@
-
 ## Meissel-Lehmer ##
 ```cpp
 #define MEM1(a) memset( (a) , 0 , sizeof( (a) ) );

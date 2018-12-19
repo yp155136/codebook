@@ -18,19 +18,15 @@ struct DJS{
   }
   void init(int n){
     for(int i=1; i<=n; i++){
-      p[i]=i;
-      rk[i]=0;
+      p[i]=i; rk[i]=0;
     }
-    sz=n;
-    memo.clear();
-    stk.clear();
+    sz=n; memo.clear(); stk.clear();
   }
   int f(int x){
     return x == p[x] ? x : f(p[x]);
   }
   void uni(int a, int b){
-    int aa=f(a);
-    int bb=f(b);
+    int aa=f(a); int bb=f(b);
     if(aa == bb) return;
     assign(&sz, sz-1);
     if(rk[aa] > rk[bb]) swap(aa, bb);

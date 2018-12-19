@@ -1,7 +1,4 @@
-#include <iostream>
-#include <stdio.h>
-#include <ctime>
-#include <cstdlib>
+#include <bits/stdc++.h>
 using namespace std;
 
 const int MAX_N = 1e5 + 6;
@@ -15,8 +12,7 @@ int myRnd() {
 struct Treap {
     static Treap mem[MAX_P];
     Treap *lc,*rc;
-    char c;
-    int sz;
+    char c; int sz;
     Treap(){}
     Treap(char _c) : lc(NULL),rc(NULL),sz(1),c(_c){}
 } Treap::mem[MAX_P], *ptr=Treap::mem ;
@@ -24,7 +20,6 @@ struct Treap {
 int Sz(Treap* t) {
     return t?t->sz:0;
 }
-
 void pull(Treap* t) {
     if (!t) return;
     t->sz = Sz(t->lc) + Sz(t->rc) + 1;

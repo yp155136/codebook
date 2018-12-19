@@ -13,7 +13,6 @@ void pre_fft() {
 		omega[i] = exp(i*2*PI/MAXN*I);
 	}
 }
-
 void fft(int n,cplx a[],bool inv=false) {
 	int basic=MAXN/n;
 	int theta=basic;
@@ -41,20 +40,14 @@ void fft(int n,cplx a[],bool inv=false) {
 }
 
 cplx a[MAXN],b[MAXN],c[MAXN];
-
 //how to use : 
 /*
 pre_fft();
 fft(n,a);
-pre_fft();
 fft(n,b);
 for (int i=0;n>i;i++) {
 	c[i] = a[i]*b[i];
 }
-pre_fft();
 fft(n,c,1);
 */
-
-
-
 

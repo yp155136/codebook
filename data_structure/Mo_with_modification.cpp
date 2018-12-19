@@ -1,8 +1,4 @@
-#include <iostream>
-#include <stdio.h>
-#include <algorithm>
-#include <cmath>
-#include <cstring>
+#include <bits/stdc++.h>
 using namespace std;
 
 const int MAX_N = 5e4 + 6;
@@ -23,7 +19,6 @@ struct Query {
         return T < q2.T;
     }
 } query[MAX_N];
-
 struct Modify {
     int pos,ori_val,after_val;
     void give_val(int _pos,int _ori_val,int _after_val) {
