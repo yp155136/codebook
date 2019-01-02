@@ -1,0 +1,67 @@
+\contentsline {section}{\numberline {1}Basic}{1}
+\contentsline {subsection}{\numberline {1.1}.vimrc}{1}
+\contentsline {subsection}{\numberline {1.2}default code}{1}
+\contentsline {subsection}{\numberline {1.3}fasterIO}{1}
+\contentsline {subsection}{\numberline {1.4}rope}{2}
+\contentsline {subsection}{\numberline {1.5}black magic}{2}
+\contentsline {subsection}{\numberline {1.6}Lawfung}{2}
+\contentsline {subsection}{\numberline {1.7}check}{2}
+\contentsline {section}{\numberline {2}Data Structure}{2}
+\contentsline {subsection}{\numberline {2.1}disjoint set}{2}
+\contentsline {subsection}{\numberline {2.2}Persistent treap}{2}
+\contentsline {subsection}{\numberline {2.3}Link Cut Tree}{3}
+\contentsline {section}{\numberline {3}Flow}{3}
+\contentsline {subsection}{\numberline {3.1}Flow with lower bound}{3}
+\contentsline {subsection}{\numberline {3.2}Global Min Cut}{4}
+\contentsline {subsection}{\numberline {3.3}Gomory Hu Tree}{4}
+\contentsline {section}{\numberline {4}Geometry}{4}
+\contentsline {subsection}{\numberline {4.1}Circle}{4}
+\contentsline {subsection}{\numberline {4.2}Half Plane Intersection}{5}
+\contentsline {subsection}{\numberline {4.3}Poly Union}{6}
+\contentsline {subsection}{\numberline {4.4}Convex Hull 3D}{6}
+\contentsline {subsection}{\numberline {4.5}Convex Hull}{7}
+\contentsline {section}{\numberline {5}Graph}{7}
+\contentsline {subsection}{\numberline {5.1}Biconnected Component}{7}
+\contentsline {subsection}{\numberline {5.2}general graph macthing}{8}
+\contentsline {subsection}{\numberline {5.3}Tutte matrix}{8}
+\contentsline {subsection}{\numberline {5.4}KM}{8}
+\contentsline {subsection}{\numberline {5.5}Maximum Weighted Matching(General Graph)}{8}
+\contentsline {subsection}{\numberline {5.6}Minimum Weighted Matching}{10}
+\contentsline {subsection}{\numberline {5.7}Minimum mean cycle}{10}
+\contentsline {subsection}{\numberline {5.8}Heavy-Light decomposition}{11}
+\contentsline {subsection}{\numberline {5.9}Dynamic MST}{11}
+\contentsline {subsection}{\numberline {5.10}Minimum Steiner Tree}{12}
+\contentsline {subsection}{\numberline {5.11}Maximum Clique}{12}
+\contentsline {section}{\numberline {6}Math}{12}
+\contentsline {subsection}{\numberline {6.1}Big Integer}{12}
+\contentsline {subsection}{\numberline {6.2}FFT}{14}
+\contentsline {subsection}{\numberline {6.3}NTT}{14}
+\contentsline {subsection}{\numberline {6.4}FWT}{14}
+\contentsline {subsection}{\numberline {6.5}Gauss}{15}
+\contentsline {subsection}{\numberline {6.6}Miller Rabin}{15}
+\contentsline {subsection}{\numberline {6.7}Pollard Rho}{15}
+\contentsline {subsection}{\numberline {6.8}Pi}{16}
+\contentsline {subsection}{\numberline {6.9}Debrujin}{16}
+\contentsline {section}{\numberline {7}String}{16}
+\contentsline {subsection}{\numberline {7.1}string tools}{16}
+\contentsline {subsection}{\numberline {7.2}Aho–Corasick algorithm}{17}
+\contentsline {subsection}{\numberline {7.3}Suffix array}{17}
+\contentsline {subsection}{\numberline {7.4}Lexicographically Smallest Rotation}{18}
+\contentsline {section}{\numberline {8}Boook}{18}
+\contentsline {subsection}{\numberline {8.1}Block Tree}{18}
+\contentsline {subsection}{\numberline {8.2}Dancing Link}{19}
+\contentsline {subsection}{\numberline {8.3}Joseph Problem}{20}
+\contentsline {subsection}{\numberline {8.4}High Speed Linear Recursion}{20}
+\contentsline {subsection}{\numberline {8.5}Segment Max segment sum}{20}
+\contentsline {subsection}{\numberline {8.6}Primitive root}{21}
+\contentsline {subsection}{\numberline {8.7}Same remainder Equation}{21}
+\contentsline {subsection}{\numberline {8.8}Stone merge}{21}
+\contentsline {subsection}{\numberline {8.9}Range modify and query BIT}{21}
+\contentsline {subsection}{\numberline {8.10}Manhattan Spanning Tree}{22}
+\contentsline {subsection}{\numberline {8.11}Integer Split}{22}
+\contentsline {subsection}{\numberline {8.12}K Cover Tree}{23}
+\contentsline {subsection}{\numberline {8.13}Maximum M Sum}{23}
+\contentsline {subsection}{\numberline {8.14}Sigma Problem}{23}
+\contentsline {subsection}{\numberline {8.15}Range Color Online}{24}
+\contentsline {subsection}{\numberline {8.16}Minimum Enclosing Cycle}{25}
+\contentsline {subsection}{\numberline {8.17}Triangle}{25}
