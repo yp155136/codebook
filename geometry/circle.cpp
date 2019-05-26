@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+//REMEMBER TO ROTATE AN ANGLE!!!
 typedef double D;  //maybe long double
 typedef pair<D,D> pdd;
 const D eps = 1e-9;
