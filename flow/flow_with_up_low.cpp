@@ -1,3 +1,19 @@
+/*
+Maximum density subgraph ( \sum W_e + \sum W_v ) / |V|
+
+Binary search on answer:
+For a fixed D, construct a Max flow model as follow:
+Let S be Sum of all weight( or inf)
+1. from source to each node with cap = S
+2. For each (u,v,w) in E, (u->v,cap=w), (v->u,cap=w)
+3. For each node v, from v to sink with cap = S + 2 * D - deg[v] - 2 * (W of v)
+where deg[v] = \sum weight of edge associated with v
+If maxflow < S * |V|, D is an answer.
+
+Requiring subgraph: all vertex can be reached from source with
+edge whose cap > 0.
+
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

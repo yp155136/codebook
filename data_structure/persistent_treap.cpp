@@ -5,10 +5,6 @@ const int MAX_N = 1e5 + 6;
 const int MAX_M = 1e6 + 6;
 const int MAX_P = 3e7;
 
-int myRnd() {
-    return 10000*(rand()%10000) + (rand()%10000);
-}
-
 struct Treap {
     static Treap mem[MAX_P];
     Treap *lc,*rc;
@@ -16,7 +12,6 @@ struct Treap {
     Treap(){}
     Treap(char _c) : lc(NULL),rc(NULL),sz(1),c(_c){}
 } Treap::mem[MAX_P], *ptr=Treap::mem ;
-
 int Sz(Treap* t) {
     return t?t->sz:0;
 }
@@ -24,7 +19,6 @@ void pull(Treap* t) {
     if (!t) return;
     t->sz = Sz(t->lc) + Sz(t->rc) + 1;
 }
-
 Treap* merge(Treap* a,Treap* b) {
     if (!a || !b) return a?a:b;
     Treap* ret;
@@ -39,7 +33,6 @@ Treap* merge(Treap* a,Treap* b) {
     pull(ret);
     return ret;
 }
-
 void split(Treap* t,int k,Treap* &a,Treap* &b) {
     if (!t) a=b=NULL;
     else if (Sz(t->lc) + 1 <= k) {
@@ -53,7 +46,6 @@ void split(Treap* t,int k,Treap* &a,Treap* &b) {
         pull(b);
     }
 }
-
 int d;
 char buf[MAX_M];
 Treap* ver[MAX_N];
