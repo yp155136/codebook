@@ -34,13 +34,3 @@ __asm__("movq %0, %%rsp\n"::"r"(p));
 // main
 __asm__("movq %0, %%rsp\n"::"r"(bak));
 
-/*
-# Pick's theorem
-$A=i+\frac{b}{2}-1$
-
-# Laplacian matrix
-$L = D - A$
-
-# Extended Catalan number
-$\frac{1}{(k-1)n+1} {kn\choose n}$
-*/

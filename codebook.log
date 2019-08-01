@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.10.14)  26 MAY 2019 15:28
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.7.11)  1 AUG 2019 21:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1332,9 +1332,9 @@ LaTeX Font Warning: Font shape `TU/Monaco(0)/bx/n' undefined
 LaTeX Font Warning: Font shape `TU/Monaco(0)/m/it' undefined
 (Font)              using `TU/Monaco(0)/m/n' instead on input line 1.
 
-) (./basic/fasterIO.cpp) [1
+) (./basic/fasterIO.cpp) (./basic/rope.cpp [1
 
-] (./basic/rope.cpp) (./basic/black_magic.cpp)
+]) (./basic/black_magic.cpp)
 (./basic/lawfung.tex
 
 Package amsmath Warning: Foreign command \atopwithdelims;
@@ -1343,12 +1343,16 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 
 ) (./basic/check.sh) (./data_structure/DJS.cpp)
 (./data_structure/persistent_treap.cpp [2]) (./data_structure/linkcut_tree.cpp)
-(./flow/flow_with_up_low.cpp [3]) (./flow/Stoer_Wagner_global_mincut.cpp)
-(./graph/Gomory_Hu.cpp) (./geometry/circle.cpp [4]
+(./flow/flow_with_up_low.cpp [3])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./flow/Stoer_Wagner_global_mincut.cpp) (./graph/Gomory_Hu.cpp)
+(./geometry/circle.cpp [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./geometry/Half_plane_inter.cpp) [5] (./geometry/polyUnion.cpp)
+(./geometry/Half_plane_inter.cpp [5]) (./geometry/polyUnion.cpp)
 (./geometry/ConvexHull3D.cpp [6]) (./geometry/ConvexHull.cpp)
 (./graph/Biconnected_component.cpp [7]) (./graph/general_graph_matching.cpp)
 (./graph/tutte.cpp) (./graph/KM.cpp)
@@ -1381,10 +1385,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./boook/DancingLinkX.cpp [19]) (./boook/joseph_mlogn.cpp)
-(./boook/mid_speed_linear_recursion.cpp) (./boook/NOI_Problem.cpp
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20])
+(./boook/mid_speed_linear_recursion.cpp) (./boook/NOI_Problem.cpp [20])
 (./boook/Primitive_root.cpp) (./boook/same_remainder.cpp)
 (./boook/stone_merge.cpp) (./boook/two_demical_bit_matrix.cpp [21])
 (./boook/Mahaton_Spanning_Tree.cpp) (./boook/Integer_split.cpp [22])
@@ -1400,11 +1401,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  23234 strings out of 494988
- 438565 string characters out of 6178637
- 1204732 words of memory out of 5000000
+ 438565 string characters out of 6178638
+ 1201732 words of memory out of 5000000
  26754 multiletter control sequences out of 15000+600000
  531763 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 39i,12n,65p,10409b,1608s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,12n,65p,10409b,1606s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on codebook.pdf (25 pages).
