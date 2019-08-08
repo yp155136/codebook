@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.7.11)  8 AUG 2019 15:01
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.7.11)  8 AUG 2019 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1262,47 +1262,37 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (0.69998pt too wide) detected at line 32
-\TU/FreeMono(0)/m/n/7 5.10 
- []
-
-
-Overfull \hbox (0.69998pt too wide) detected at line 33
-\TU/FreeMono(0)/m/n/7 5.11 
- []
-
-
-Overfull \hbox (0.69998pt too wide) detected at line 59
+Overfull \hbox (0.69998pt too wide) detected at line 57
 \TU/FreeMono(0)/m/n/7 8.10 
  []
 
 
-Overfull \hbox (0.69998pt too wide) detected at line 60
+Overfull \hbox (0.69998pt too wide) detected at line 58
 \TU/FreeMono(0)/m/n/7 8.11 
  []
 
 
-Overfull \hbox (0.69998pt too wide) detected at line 61
+Overfull \hbox (0.69998pt too wide) detected at line 59
 \TU/FreeMono(0)/m/n/7 8.12 
  []
 
 
-Overfull \hbox (0.69998pt too wide) detected at line 62
+Overfull \hbox (0.69998pt too wide) detected at line 60
 \TU/FreeMono(0)/m/n/7 8.13 
  []
 
 
-Overfull \hbox (0.69998pt too wide) detected at line 63
+Overfull \hbox (0.69998pt too wide) detected at line 61
 \TU/FreeMono(0)/m/n/7 8.14 
  []
 
 
-Overfull \hbox (0.69998pt too wide) detected at line 64
+Overfull \hbox (0.69998pt too wide) detected at line 62
 \TU/FreeMono(0)/m/n/7 8.15 
  []
 
 
-Overfull \hbox (0.69998pt too wide) detected at line 65
+Overfull \hbox (0.69998pt too wide) detected at line 63
 \TU/FreeMono(0)/m/n/7 8.16 
  []
 

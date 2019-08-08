@@ -34,11 +34,11 @@
 \contentsline {subsection}{\numberline {6.2}FFT}{12}
 \contentsline {subsection}{\numberline {6.3}NTT}{13}
 \contentsline {subsection}{\numberline {6.4}FWT}{13}
-\contentsline {subsection}{\numberline {6.5}Gauss}{14}
+\contentsline {subsection}{\numberline {6.5}Gaussian Elimination}{14}
 \contentsline {subsection}{\numberline {6.6}Miller Rabin}{14}
 \contentsline {subsection}{\numberline {6.7}Pollard Rho}{14}
-\contentsline {subsection}{\numberline {6.8}Pi Function}{15}
-\contentsline {subsection}{\numberline {6.9}Debrujin}{15}
+\contentsline {subsection}{\numberline {6.8}Meissel-Lehmer Algorithm}{15}
+\contentsline {subsection}{\numberline {6.9}De Brujin}{15}
 \contentsline {section}{\numberline {7}String}{15}
 \contentsline {subsection}{\numberline {7.1}string tools}{15}
 \contentsline {subsection}{\numberline {7.2}Aho–Corasick algorithm}{16}
@@ -60,4 +60,4 @@
 \contentsline {subsection}{\numberline {8.13}M Segments' Maximum Sum}{22}
 \contentsline {subsection}{\numberline {8.14}Range Color Online}{22}
 \contentsline {subsection}{\numberline {8.15}Minimum Enclosing Cycle}{23}
-\contentsline {subsection}{\numberline {8.16}Largest Triangle}{24}
+\contentsline {subsection}{\numberline {8.16}Rotating Sweep Line}{24}
