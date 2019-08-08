@@ -73,22 +73,7 @@ PII query(int now , int l , int r , int ql , int qr){
         return ans;
     }
 }
-int32_t main(){
-    IOS;
-    cin >> n >> m;
-    REP(i , 1 , n + 1) cin >> x[i];
-    Build(1 , 1 , n);
-    REP(i , 1 , m + 1){
-        int ty , l , r , v;
-        cin >> ty;
-        if(ty == 1){
-            cin >> l >> r >> v;
-            update(1 , 1 , n , l , r , v);
-        }
-        if(ty == 2){
-            cin >> l >> r;
-            cout << query(1 , 1 , n , l , r).A << endl;
-        }
-    }
-    return 0;
-}
+REP(i , 1 , n + 1) cin >> x[i];
+Build(1 , 1 , n);
+update(1 , 1 , n , l , r , v);
+cout << query(1 , 1 , n , l , r).A << endl;
