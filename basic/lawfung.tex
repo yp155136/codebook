@@ -20,10 +20,13 @@
     $\sum\limits_{i|n} \mu(i)=[n=1]$
     $\sum\limits_{i|n} \phi(i)=n$
 
-    \item Binomial inversion formula
+    \item Inversion formula
 
     $f(n)=\sum\limits_{i=0}^n{n \choose i}g(i)$
     $g(n)=\sum\limits_{i=0}^n(-1)^{n-i}{n \choose i}f(i)$
+
+    $f(n)=\sum\limits_{d|n}g(d)$
+    $g(n)=\sum\limits_{d|n}\mu(\frac{n}{d})f(d)$
 
     \item Sum of powers
 
@@ -34,5 +37,18 @@
     note :
     $B^+_1=-B^-_1$
     $B^+_i=B^-_i$
+
+    \item Cipolla's algorithm
+
+    $\left(\dfrac{u}{p}\right)=u^{\frac{p-1}{2}}$
+
+    \begin{enumerate}
+        \item $\left(\dfrac{a^2-n}{p}\right)=-1$
+        \item $x=(a+\sqrt{a^2-n})^{\frac{p+1}{2}}$
+    \end{enumerate}
+
+    \item High order residue
+
+    $[d^{\frac{p-1}{(n,p-1)}}\equiv 1]$
 
 \end{itemize}

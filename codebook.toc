@@ -9,20 +9,22 @@
 \contentsline {section}{\numberline {2}Data Structure}{2}
 \contentsline {subsection}{\numberline {2.1}disjoint set}{2}
 \contentsline {subsection}{\numberline {2.2}Persistent treap}{2}
-\contentsline {subsection}{\numberline {2.3}Link Cut Tree}{3}
-\contentsline {section}{\numberline {3}Flow}{3}
-\contentsline {subsection}{\numberline {3.1}Dinic with bound}{3}
+\contentsline {subsection}{\numberline {2.3}Leftist Tree}{3}
+\contentsline {subsection}{\numberline {2.4}Link Cut Tree}{3}
+\contentsline {section}{\numberline {3}Flow}{4}
+\contentsline {subsection}{\numberline {3.1}Dinic with bound}{4}
 \contentsline {subsection}{\numberline {3.2}Global Min Cut}{4}
 \contentsline {subsection}{\numberline {3.3}Gomory Hu Tree}{5}
 \contentsline {section}{\numberline {4}Geometry}{5}
 \contentsline {subsection}{\numberline {4.1}Circle}{5}
 \contentsline {subsection}{\numberline {4.2}Half Plane Intersection}{5}
-\contentsline {subsection}{\numberline {4.3}Convex Hull 3D}{6}
+\contentsline {subsection}{\numberline {4.3}Convex Hull 3D}{5}
 \contentsline {subsection}{\numberline {4.4}Convex Hull}{6}
+\contentsline {subsection}{\numberline {4.5}Polar Angle Sort}{7}
 \contentsline {section}{\numberline {5}Graph}{7}
 \contentsline {subsection}{\numberline {5.1}Biconnected Component}{7}
 \contentsline {subsection}{\numberline {5.2}general graph macthing}{7}
-\contentsline {subsection}{\numberline {5.3}KM}{8}
+\contentsline {subsection}{\numberline {5.3}KM}{7}
 \contentsline {subsection}{\numberline {5.4}Maximum Weighted Matching(General Graph)}{8}
 \contentsline {subsection}{\numberline {5.5}Minimum mean cycle}{9}
 \contentsline {subsection}{\numberline {5.6}Heavy-Light decomposition}{10}
@@ -34,18 +36,19 @@
 \contentsline {subsection}{\numberline {6.2}FFT}{12}
 \contentsline {subsection}{\numberline {6.3}NTT}{13}
 \contentsline {subsection}{\numberline {6.4}FWT}{13}
-\contentsline {subsection}{\numberline {6.5}Gaussian Elimination}{14}
+\contentsline {subsection}{\numberline {6.5}Gaussian Elimination}{13}
 \contentsline {subsection}{\numberline {6.6}Miller Rabin}{14}
 \contentsline {subsection}{\numberline {6.7}Pollard Rho}{14}
 \contentsline {subsection}{\numberline {6.8}Meissel-Lehmer Algorithm}{15}
 \contentsline {subsection}{\numberline {6.9}De Brujin}{15}
-\contentsline {section}{\numberline {7}String}{15}
-\contentsline {subsection}{\numberline {7.1}string tools}{15}
+\contentsline {subsection}{\numberline {6.10}Simplex Algorithm}{15}
+\contentsline {section}{\numberline {7}String}{16}
+\contentsline {subsection}{\numberline {7.1}string tools}{16}
 \contentsline {subsection}{\numberline {7.2}Aho–Corasick algorithm}{16}
-\contentsline {subsection}{\numberline {7.3}Suffix array}{16}
-\contentsline {subsection}{\numberline {7.4}Lexicographically Smallest Rotation}{17}
-\contentsline {section}{\numberline {8}Boook}{17}
-\contentsline {subsection}{\numberline {8.1}Block Tree}{17}
+\contentsline {subsection}{\numberline {7.3}Suffix array}{17}
+\contentsline {subsection}{\numberline {7.4}Lexicographically Smallest Rotation}{18}
+\contentsline {section}{\numberline {8}Boook}{18}
+\contentsline {subsection}{\numberline {8.1}Block Tree}{18}
 \contentsline {subsection}{\numberline {8.2}Dancing Link}{18}
 \contentsline {subsection}{\numberline {8.3}Joseph Problem}{19}
 \contentsline {subsection}{\numberline {8.4}Middle Speed Linear Recursion}{19}
@@ -53,11 +56,13 @@
 \contentsline {subsection}{\numberline {8.6}Primitive root}{20}
 \contentsline {subsection}{\numberline {8.7}Chinese Remainder Problem}{20}
 \contentsline {subsection}{\numberline {8.8}Stone merge}{20}
-\contentsline {subsection}{\numberline {8.9}Range modify and query BIT}{20}
+\contentsline {subsection}{\numberline {8.9}Range modify and query BIT}{21}
 \contentsline {subsection}{\numberline {8.10}Manhattan Spanning Tree}{21}
-\contentsline {subsection}{\numberline {8.11}Integer Split}{21}
-\contentsline {subsection}{\numberline {8.12}K Cover Tree}{21}
+\contentsline {subsection}{\numberline {8.11}Integer Split}{22}
+\contentsline {subsection}{\numberline {8.12}K Cover Tree}{22}
 \contentsline {subsection}{\numberline {8.13}M Segments' Maximum Sum}{22}
-\contentsline {subsection}{\numberline {8.14}Range Color Online}{22}
-\contentsline {subsection}{\numberline {8.15}Minimum Enclosing Cycle}{23}
+\contentsline {subsection}{\numberline {8.14}Range Color Online}{23}
+\contentsline {subsection}{\numberline {8.15}Minimum Enclosing Cycle}{24}
 \contentsline {subsection}{\numberline {8.16}Rotating Sweep Line}{24}
+\contentsline {subsection}{\numberline {8.17}Hilbert Curve}{24}
+\contentsline {subsection}{\numberline {8.18}Next Permutation on binary}{24}

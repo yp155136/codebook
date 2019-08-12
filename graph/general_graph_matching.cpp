@@ -1,13 +1,17 @@
-const int N = 514, E = (2e5) * 2;
+const int N = 100006, E = (2e5) * 2;
 struct Graph{
+  //1-index
   int to[E],bro[E],head[N],e;
   int lnk[N],vis[N],stp,n;
+  int per[N];
   void init( int _n ){
     stp = 0; e = 1; n = _n;
     for( int i = 1 ; i <= n ; i ++ )
-      lnk[i] = vis[i] = 0;
+      lnk[i] = vis[i] = 0, per[i] = i;
+    random_shuffle(per+1, per+n+1);
   }
   void add_edge(int u,int v){
+    u=per[u], v=per[v];
     to[e]=v,bro[e]=head[u],head[u]=e++;
     to[e]=u,bro[e]=head[v],head[v]=e++;
   }
