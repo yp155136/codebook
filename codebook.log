@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.7.11)  12 AUG 2019 11:19
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.7.11)  12 AUG 2019 17:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1262,52 +1262,52 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (0.69998pt too wide) detected at line 44
+Overfull \hbox (0.69998pt too wide) detected at line 45
 \TU/FreeMono(0)/m/n/7 6.10 
  []
 
 
-Overfull \hbox (0.69998pt too wide) detected at line 60
+Overfull \hbox (0.69998pt too wide) detected at line 61
 \TU/FreeMono(0)/m/n/7 8.10 
  []
 
 
-Overfull \hbox (0.69998pt too wide) detected at line 61
+Overfull \hbox (0.69998pt too wide) detected at line 62
 \TU/FreeMono(0)/m/n/7 8.11 
  []
 
 
-Overfull \hbox (0.69998pt too wide) detected at line 62
+Overfull \hbox (0.69998pt too wide) detected at line 63
 \TU/FreeMono(0)/m/n/7 8.12 
  []
 
 
-Overfull \hbox (0.69998pt too wide) detected at line 63
+Overfull \hbox (0.69998pt too wide) detected at line 64
 \TU/FreeMono(0)/m/n/7 8.13 
  []
 
 
-Overfull \hbox (0.69998pt too wide) detected at line 64
+Overfull \hbox (0.69998pt too wide) detected at line 65
 \TU/FreeMono(0)/m/n/7 8.14 
  []
 
 
-Overfull \hbox (0.69998pt too wide) detected at line 65
+Overfull \hbox (0.69998pt too wide) detected at line 66
 \TU/FreeMono(0)/m/n/7 8.15 
  []
 
 
-Overfull \hbox (0.69998pt too wide) detected at line 66
+Overfull \hbox (0.69998pt too wide) detected at line 67
 \TU/FreeMono(0)/m/n/7 8.16 
  []
 
 
-Overfull \hbox (0.69998pt too wide) detected at line 67
+Overfull \hbox (0.69998pt too wide) detected at line 68
 \TU/FreeMono(0)/m/n/7 8.17 
  []
 
 
-Overfull \hbox (0.69998pt too wide) detected at line 68
+Overfull \hbox (0.69998pt too wide) detected at line 69
 \TU/FreeMono(0)/m/n/7 8.18 
  []
 
@@ -1351,54 +1351,50 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./geometry/ConvexHull.cpp [6]) (./geometry/polar_angle_sort.cpp)
-(./graph/Biconnected_component.cpp) (./graph/general_graph_matching.cpp)
-(./graph/KM.cpp [7]) (./graph/maximum_weighted_general_graph.cpp
+(./geometry/circle_tri.cpp) [7] (./graph/Biconnected_component.cpp)
+(./graph/general_graph_matching.cpp) (./graph/KM.cpp)
+(./graph/maximum_weighted_general_graph.cpp [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9])
+(./graph/minimum_mean_cycle.cpp) (./graph/HLD.cpp [10]) (./graph/dynamicMST.cpp
+) (./graph/MinimumSteinerTree.cpp [11]) (./graph/maximum_clique.cpp)
+(./math/bigint.cpp
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12])
+(./math/fft2.cpp) (./math/NTT.cpp [13]) (./math/FWT.cpp) (./math/gauss.cpp)
+(./math/miller_robin.cpp [14]) (./math/Pollard_Rho.cpp) (./math/phi_n.cpp
+[15]) (./math/debrujin.cpp) (./math/simplex.cpp) (./string/string_tool.cpp
+[16]) (./string/AC_Machine.cpp) (./string/suffix_array.cpp [17]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./graph/minimum_mean_cycle.cpp) [9] (./graph/HLD.cpp)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-(./graph/dynamicMST.cpp [10]) (./graph/MinimumSteinerTree.cpp)
-(./graph/maximum_clique.cpp) (./math/bigint.cpp [11]
+(./string/minimum_rotation.cpp) (./boook/block_tree.cpp [18])
+(./boook/DancingLinkX.cpp) (./boook/joseph_mlogn.cpp [19])
+(./boook/mid_speed_linear_recursion.cpp) (./boook/NOI_Problem.cpp)
+(./boook/Primitive_root.cpp [20]) (./boook/same_remainder.cpp)
+(./boook/stone_merge.cpp) (./boook/two_demical_bit_matrix.cpp [21])
+(./boook/Mahaton_Spanning_Tree.cpp) (./boook/Integer_split.cpp)
+(./boook/KCoverTree.cpp [22]) (./boook/MaximumMSum.cpp)
+(./boook/yp_rangecolor.cpp [23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./math/fft2.cpp [12]) (./math/NTT.cpp) (./math/FWT.cpp) (./math/gauss.cpp
-[13]) (./math/miller_robin.cpp) (./math/Pollard_Rho.cpp [14]) (./math/phi_n.cpp
-) (./math/debrujin.cpp) (./math/simplex.cpp [15]) (./string/string_tool.cpp)
-(./string/AC_Machine.cpp [16]) (./string/suffix_array.cpp)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
-(./string/minimum_rotation.cpp) (./boook/block_tree.cpp)
-(./boook/DancingLinkX.cpp [18]) (./boook/joseph_mlogn.cpp)
-(./boook/mid_speed_linear_recursion.cpp) (./boook/NOI_Problem.cpp [19])
-(./boook/Primitive_root.cpp) (./boook/same_remainder.cpp)
-(./boook/stone_merge.cpp [20]) (./boook/two_demical_bit_matrix.cpp)
-(./boook/Mahaton_Spanning_Tree.cpp [21]) (./boook/Integer_split.cpp)
-(./boook/KCoverTree.cpp) (./boook/MaximumMSum.cpp [22])
-(./boook/yp_rangecolor.cpp
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23])
-(./boook/minimum_enclosing_cycle.cpp) (./boook/tri.cpp) (./boook/hilbert.cpp)
-(./boook/next_perm.cpp) [24] [25
-
-] (./codebook.aux)
+(./boook/minimum_enclosing_cycle.cpp [24]) (./boook/tri.cpp)
+(./boook/hilbert.cpp) (./boook/next_perm.cpp) [25] (./codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23168 strings out of 494988
- 437969 string characters out of 6178638
+ 23189 strings out of 494988
+ 438255 string characters out of 6178638
  1270732 words of memory out of 5000000
- 26684 multiletter control sequences out of 15000+600000
+ 26702 multiletter control sequences out of 15000+600000
  531763 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  39i,12n,65p,10409b,1608s stack positions out of 5000i,500n,10000p,200000b,80000s
