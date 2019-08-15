@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.7.11)  12 AUG 2019 17:26
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.7.11)  15 AUG 2019 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1311,6 +1311,11 @@ Overfull \hbox (0.69998pt too wide) detected at line 69
 \TU/FreeMono(0)/m/n/7 8.18 
  []
 
+
+Overfull \hbox (0.69998pt too wide) detected at line 70
+\TU/FreeMono(0)/m/n/7 8.19 
+ []
+
 )
 \tf@toc=\write3
 \openout3 = `codebook.toc'.
@@ -1385,14 +1390,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./boook/minimum_enclosing_cycle.cpp [24]) (./boook/tri.cpp)
-(./boook/hilbert.cpp) (./boook/next_perm.cpp) [25] (./codebook.aux)
+(./boook/hilbert.cpp) (./boook/next_perm.cpp) (./boook/ioimooeee_transfer.cpp)
+[25] (./codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23189 strings out of 494988
- 438255 string characters out of 6178638
+ 23192 strings out of 494988
+ 438331 string characters out of 6178638
  1270732 words of memory out of 5000000
  26702 multiletter control sequences out of 15000+600000
  531763 words of font info for 53 fonts, out of 8000000 for 9000

@@ -67,3 +67,4 @@
 \contentsline {subsection}{\numberline {8.16}Rotating Sweep Line}{25}
 \contentsline {subsection}{\numberline {8.17}Hilbert Curve}{25}
 \contentsline {subsection}{\numberline {8.18}Next Permutation on binary}{25}
+\contentsline {subsection}{\numberline {8.19}ioimooeee transfer}{25}
