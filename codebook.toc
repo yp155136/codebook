@@ -22,6 +22,7 @@
 \contentsline {subsection}{\numberline {4.4}Convex Hull}{6}
 \contentsline {subsection}{\numberline {4.5}Polar Angle Sort}{7}
 \contentsline {subsection}{\numberline {4.6}Circle and Polygon intersection}{7}
+\contentsline {subsection}{\numberline {4.7}Line Intersection}{8}
 \contentsline {section}{\numberline {5}Graph}{8}
 \contentsline {subsection}{\numberline {5.1}Biconnected Component}{8}
 \contentsline {subsection}{\numberline {5.2}general graph macthing}{8}
@@ -51,10 +52,10 @@
 \contentsline {section}{\numberline {8}Boook}{18}
 \contentsline {subsection}{\numberline {8.1}Block Tree}{18}
 \contentsline {subsection}{\numberline {8.2}Dancing Link}{19}
-\contentsline {subsection}{\numberline {8.3}Joseph Problem}{19}
+\contentsline {subsection}{\numberline {8.3}Joseph Problem}{20}
 \contentsline {subsection}{\numberline {8.4}Middle Speed Linear Recursion}{20}
 \contentsline {subsection}{\numberline {8.5}Segment Max segment sum}{20}
-\contentsline {subsection}{\numberline {8.6}Primitive root}{20}
+\contentsline {subsection}{\numberline {8.6}Primitive root}{21}
 \contentsline {subsection}{\numberline {8.7}Chinese Remainder Problem}{21}
 \contentsline {subsection}{\numberline {8.8}Stone merge}{21}
 \contentsline {subsection}{\numberline {8.9}Range modify and query BIT}{21}
