@@ -42,7 +42,7 @@
 \contentsline {subsection}{\numberline {6.3}NTT}{15}
 \contentsline {subsection}{\numberline {6.4}FWT}{15}
 \contentsline {subsection}{\numberline {6.5}Gaussian Elimination}{15}
-\contentsline {subsection}{\numberline {6.6}Miller Rabin}{16}
+\contentsline {subsection}{\numberline {6.6}Miller Rabin}{15}
 \contentsline {subsection}{\numberline {6.7}Pollard Rho}{16}
 \contentsline {subsection}{\numberline {6.8}Meissel-Lehmer Algorithm}{16}
 \contentsline {subsection}{\numberline {6.9}De Brujin}{17}
@@ -60,7 +60,7 @@
 \contentsline {subsection}{\numberline {8.4}Middle Speed Linear Recursion}{21}
 \contentsline {subsection}{\numberline {8.5}Segment Max segment sum}{21}
 \contentsline {subsection}{\numberline {8.6}Primitive root}{22}
-\contentsline {subsection}{\numberline {8.7}Chinese Remainder Problem}{22}
+\contentsline {subsection}{\numberline {8.7}Chinese Remainder Theorem}{22}
 \contentsline {subsection}{\numberline {8.8}Stone merge}{22}
 \contentsline {subsection}{\numberline {8.9}Range modify and query BIT}{23}
 \contentsline {subsection}{\numberline {8.10}Manhattan Spanning Tree}{23}
@@ -71,4 +71,4 @@
 \contentsline {subsection}{\numberline {8.15}Rotating Sweep Line}{25}
 \contentsline {subsection}{\numberline {8.16}Hilbert Curve}{25}
 \contentsline {subsection}{\numberline {8.17}Next Permutation on binary}{25}
-\contentsline {subsection}{\numberline {8.18}ioimooeee transfer}{25}
+\contentsline {subsection}{\numberline {8.18}SOS DP}{25}

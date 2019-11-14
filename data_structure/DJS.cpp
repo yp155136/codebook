@@ -17,9 +17,7 @@ struct DJS{
     *x=v;
   }
   void init(int n){
-    for(int i=1; i<=n; i++){
-      p[i]=i; rk[i]=0;
-    }
+    for(int i=1; i<=n; i++) {p[i]=i; rk[i]=0;}
     sz=n; memo.clear(); stk.clear();
   }
   int f(int x){
