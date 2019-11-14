@@ -1,9 +1,3 @@
-#define int long long
-#define MAX 300900
-#define INF 10000000000090LL
-#define ls (now << 1)
-#define rs (now << 1 | 1)
-#define mid ((l + r) >> 1)
 int n , m , x[MAX];
 class N{
 public: int tag , sml , sum , none;

@@ -8,26 +8,26 @@
 \contentsline {subsection}{\numberline {1.7}check}{2}
 \contentsline {section}{\numberline {2}Data Structure}{2}
 \contentsline {subsection}{\numberline {2.1}disjoint set}{2}
-\contentsline {subsection}{\numberline {2.2}Persistent treap}{2}
+\contentsline {subsection}{\numberline {2.2}Persistent treap}{3}
 \contentsline {subsection}{\numberline {2.3}Leftist Tree}{3}
 \contentsline {subsection}{\numberline {2.4}Link Cut Tree}{3}
 \contentsline {subsection}{\numberline {2.5}Li Chao Tree}{4}
 \contentsline {section}{\numberline {3}Flow}{4}
 \contentsline {subsection}{\numberline {3.1}Dinic with bound}{4}
-\contentsline {subsection}{\numberline {3.2}Min Cost Max Flow}{5}
-\contentsline {subsection}{\numberline {3.3}Global Min Cut}{5}
-\contentsline {subsection}{\numberline {3.4}Gomory Hu Tree}{5}
-\contentsline {section}{\numberline {4}Geometry}{6}
-\contentsline {subsection}{\numberline {4.1}Circle}{6}
+\contentsline {subsection}{\numberline {3.2}Global Min Cut}{5}
+\contentsline {subsection}{\numberline {3.3}Gomory Hu Tree}{5}
+\contentsline {section}{\numberline {4}Geometry}{5}
+\contentsline {subsection}{\numberline {4.1}Circle}{5}
 \contentsline {subsection}{\numberline {4.2}Half Plane Intersection}{6}
 \contentsline {subsection}{\numberline {4.3}Convex Hull 3D}{6}
 \contentsline {subsection}{\numberline {4.4}Convex Hull}{7}
 \contentsline {subsection}{\numberline {4.5}Polar Angle Sort}{7}
-\contentsline {subsection}{\numberline {4.6}Circle and Polygon intersection}{8}
+\contentsline {subsection}{\numberline {4.6}Circle and Polygon intersection}{7}
 \contentsline {subsection}{\numberline {4.7}Line Intersection}{8}
+\contentsline {subsection}{\numberline {4.8}Line Intersection Point}{8}
 \contentsline {section}{\numberline {5}Graph}{8}
 \contentsline {subsection}{\numberline {5.1}Biconnected Component}{8}
-\contentsline {subsection}{\numberline {5.2}general graph macthing}{9}
+\contentsline {subsection}{\numberline {5.2}general graph macthing}{8}
 \contentsline {subsection}{\numberline {5.3}KM}{9}
 \contentsline {subsection}{\numberline {5.4}Maximum Weighted Matching(General Graph)}{9}
 \contentsline {subsection}{\numberline {5.5}Minimum mean cycle}{10}
@@ -44,14 +44,15 @@
 \contentsline {subsection}{\numberline {6.5}Gaussian Elimination}{15}
 \contentsline {subsection}{\numberline {6.6}Miller Rabin}{16}
 \contentsline {subsection}{\numberline {6.7}Pollard Rho}{16}
-\contentsline {subsection}{\numberline {6.8}Meissel-Lehmer Algorithm}{17}
+\contentsline {subsection}{\numberline {6.8}Meissel-Lehmer Algorithm}{16}
 \contentsline {subsection}{\numberline {6.9}De Brujin}{17}
 \contentsline {subsection}{\numberline {6.10}Simplex Algorithm}{17}
+\contentsline {subsection}{\numberline {6.11}Cipolla's algorithm}{17}
 \contentsline {section}{\numberline {7}String}{18}
 \contentsline {subsection}{\numberline {7.1}string tools}{18}
 \contentsline {subsection}{\numberline {7.2}Aho–Corasick algorithm}{18}
 \contentsline {subsection}{\numberline {7.3}Suffix array}{19}
-\contentsline {subsection}{\numberline {7.4}Lexicographically Smallest Rotation}{19}
+\contentsline {subsection}{\numberline {7.4}Lexicographically Smallest Rotation}{20}
 \contentsline {section}{\numberline {8}Boook}{20}
 \contentsline {subsection}{\numberline {8.1}Block Tree}{20}
 \contentsline {subsection}{\numberline {8.2}Dancing Link}{20}

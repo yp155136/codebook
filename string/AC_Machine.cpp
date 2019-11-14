@@ -4,12 +4,9 @@ using namespace std;
 struct AC_Automata {
     static const int N = 2e4 + 6;
     static const int SIGMA = 26;
-    int ch[N][SIGMA];
-    int val[N];
-    int sz;
+    int ch[N][SIGMA], val[N], sz;
     int last[N],fail[N];
-    int que[N],qs,qe;
-    int cnt[N];
+    int que[N],qs,qe, cnt[N];
     void init() {
         sz = 1;
         memset(ch[0],0,sizeof(ch[0]));

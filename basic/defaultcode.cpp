@@ -3,7 +3,6 @@
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,sse4.2,popcnt,abm,mmx,avx,tune=native")
 #pragma GCC diagnostic ignored "-W"
 
-#include <bits/stdc++.h>
 mt19937 rng(0x5EED);
 int randint(int lb, int ub)
 { return uniform_int_distribution<int>(lb, ub)(rng); }

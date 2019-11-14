@@ -1,5 +1,3 @@
-## Meissel-Lehmer ##
-```cpp
 #define MEM1(a) memset( (a) , 0 , sizeof( (a) ) );
 const int N = 320000 + 6;
 const int C = 10005;
