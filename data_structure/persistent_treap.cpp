@@ -1,17 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int MAX_N = 1e5 + 6;
-const int MAX_M = 1e6 + 6;
-const int MAX_P = 3e7;
-
 struct Treap {
-    static Treap mem[MAX_P];
+    static Treap mem[P];
     Treap *lc,*rc;
     char c; int sz;
     Treap(){}
     Treap(char _c) : lc(NULL),rc(NULL),sz(1),c(_c){}
-} Treap::mem[MAX_P], *ptr=Treap::mem ;
+} Treap::mem[P], *ptr=Treap::mem ;
 int Sz(Treap* t) {
     return t?t->sz:0;
 }
@@ -47,8 +43,8 @@ void split(Treap* t,int k,Treap* &a,Treap* &b) {
     }
 }
 int d;
-char buf[MAX_M];
-Treap* ver[MAX_N];
+char buf[M];
+Treap* ver[N];
 
 ptr = Treap::mem;
 v_cnt++;

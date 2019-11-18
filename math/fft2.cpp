@@ -3,7 +3,6 @@ using namespace std;
 
 const int MAXN = 2*262144;
 typedef long double ld;
-#define ld double
 typedef complex<ld> cplx;
 const ld PI = acos(-1);
 const cplx I(0,1);
@@ -38,7 +37,6 @@ void fft(int n,cplx a[],bool inv=false) {
 		for (int i=0;i<n;i++) a[i]/=n;
 	}
 }
-
 cplx a[MAXN],b[MAXN],c[MAXN];
 //how to use : 
 /*
@@ -50,4 +48,3 @@ for (int i=0;n>i;i++) {
 }
 fft(n,c,1);
 */
-

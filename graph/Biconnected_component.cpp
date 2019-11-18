@@ -1,23 +1,16 @@
-#include <bits/stdc++.h>
-using namespace std;
-const int N = 800006;
-
 int low[N],dfn[N];
 bool vis[N];
-int cnt[N];
-int e[N],x[N],y[N];
-int stamp;
+int cnt[N], e[N], x[N], y[N];
+int stamp, bcc_no = 0;
 
-vector<int> G[N];
-vector<int> bcc[N];
-int bcc_no = 0;
+vector<int> G[N], bcc[N];
 stack<int> sta;
 
 void dfs(int now,int par) {
     vis[now] = true;
     dfn[now] = low[now] = (++stamp);
     for (int i:G[now]) {
-        int to=(e[i]^now);
+        int to= ( e[i] ^ now );
         if (to == par) continue;
         if (!vis[to]) {
             sta.push(i); dfs(to,now);

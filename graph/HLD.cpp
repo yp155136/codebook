@@ -1,8 +1,3 @@
-#define MAX 100900
-#define ls (now << 1)
-#define rs (now << 1 | 1)
-#define mid (l + r >> 1)
- 
 int siz[MAX] , son[MAX] , dep[MAX] , ffa[MAX];
 int top[MAX] , idx[MAX] , idpo = 0;
 int n , m;

@@ -1,8 +1,8 @@
 struct line {
-    long long a, b;
+    ll a, b;
     line(): a(0), b(0) {}
-    line(long long a, long long b): a(a), b(b) {}
-    long long operator()(ll x) const { return a * x + b; }
+    line(ll a, ll b): a(a), b(b) {}
+    ll operator()(ll x) const { return a * x + b; }
 };
 
 struct lichao {
@@ -14,8 +14,7 @@ struct lichao {
         return sz++;
     }
     void init() {
-        sz = 0;
-        gnode();
+        sz = 0; gnode();
     }
     void add(int l, int r, line tl, int o) {
         //[l, r)
@@ -31,7 +30,7 @@ struct lichao {
             add((l + r) / 2, r, tl, rc[o]);
         }
     }
-    long long query(int l, int r, int x, int o) {
+    ll query(int l, int r, int x, int o) {
         if (r - l == 1) return st[o](x);
         if (x < (l + r) / 2) {
             if (lc[o] == -1) return st[o](x);
@@ -42,5 +41,3 @@ struct lichao {
         }
     }
 } solver;
-
-

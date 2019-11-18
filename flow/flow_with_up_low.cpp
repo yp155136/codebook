@@ -12,29 +12,20 @@ If maxflow < S * |V|, D is an answer.
 
 Requiring subgraph: all vertex can be reached from source with
 edge whose cap > 0.
-
 */
-#include <bits/stdc++.h>
-using namespace std;
-
-#define SZ(x) ((int)(x).size())
-
 struct Flow {
     static const int N = 8006;
     struct Edge {
-        int to,cap,rev;
-        Edge(int _to,int _cap,int _rev):to(_to),cap(_cap),rev(_rev){}
+        int to, cap, rev;
+        Edge(int _to, int _cap, int _rev):to(_to), cap(_cap), rev(_rev){}
     };
     vector<Edge> G[N];
     int d[N];
-    int S,T,s,t;
-    int n;
-    int nows,nowt;
-    void init(int _n,int _s,int _t) {
+    int S, T, s, t, n, nows, nowt;
+    void init(int _n, int _s, int _t) {
         //vertex are numbered from 0 to n, and s and t the source/sink in the original graph
-        S = _n+1,T= _n+2;
-        s = _s,t = _t;
-        n = _n;
+        S = _n+1, T= _n+2;
+        s = _s, t = _t; n = _n;
         for (int i=0;n+3>=i;i++){
             G[i].clear();
             d[i] = 0;
@@ -83,8 +74,7 @@ struct Flow {
         while (true) {
             BFS();
             if (level[nowt] == -1) break;
-            memset(iter,0,sizeof(iter));
-            int tmp;
+            memset(iter,0,sizeof(iter)); int tmp;
             while ((tmp = dfs(nows,1000000007)) > 0) {
                 ret += tmp;
             }

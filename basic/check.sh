@@ -1,4 +1,4 @@
-for ((i=0; i<100;i++))
+for i in $(seq 1 10000);
 do
     ./gen > input
     ./ac < input > out_ac

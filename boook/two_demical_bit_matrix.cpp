@@ -1,6 +1,3 @@
-#define int long long
-#define MAX 250
-#define INF 0x3f3f3f3f
 int n , m , k;
 int bit[4][MAX][MAX];
 void update(int c[MAX][MAX] , int a , int b , int val){

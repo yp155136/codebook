@@ -1,7 +1,4 @@
 ---------------------Greedy---------------------
-#define int long long
-#define MAX 50900
-#define INF 0x3f3f3f3f
 int n , m , fr[MAX] , ba[MAX];
 int v[MAX] , idx = 1;
 set<PII> cc;
@@ -47,9 +44,6 @@ int32_t main(){
     return 0;
 }
 ---------------------Aliens---------------------
-#define int int_fast64_t
-#define MAX 2000090
-#define INF 0x3f3f3f3f
 int n , k , x[MAX];
 PII dp[MAX] , rd[MAX]; // max value , times , can be buy , times
 int judge(int now){

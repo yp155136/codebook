@@ -1,6 +1,6 @@
 //soring Mo's with hilbert(L, R) can be faster!!!
-long long hilbert(int n, int x, int y) {
-    long long res = 0;
+ll hilbert(int n, int x, int y) {
+    ll res = 0;
     for (int s = n / 2; s; s >>= 1) {
         int rx = (x & s) > 0;
         int ry = (y & s) > 0;

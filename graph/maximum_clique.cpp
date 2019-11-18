@@ -15,8 +15,7 @@ struct BKB{
         wei[a] = w;
     }
     ll CNT(bst P) {
-        //if vertices have no weight
-        //return P.count();
+        //if vertices have no weight: return P.count();
         ll rt = 0;
         for(int i = P._Find_first(); i < n; i = P._Find_next(i) ) 
             rt += wei[i];

@@ -77,3 +77,10 @@ struct NTT{
         return c;
     }
 };
+ll chinese(ll b1, ll m1, ll b2, ll m2) {
+    ll a1 = bigpow(m2,m1-2,m1)*b1 % m1;
+    ll a2 = bigpow(m1,m2-2,m2)*b2 % m2;
+    ll ret= (a1*m2 + a2*m1)%(m1*m2);
+    assert(ret%m1 == b1 && ret%m2 == b2);
+    return ret;
+}

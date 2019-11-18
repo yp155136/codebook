@@ -1,7 +1,4 @@
 //Query on Tree 1, SPOJ
-
-#define MAX 10900
-#define INF 0x3f3f3f3f
  
 int t , n , m , N = 100;
 vector<int> v[MAX] , g[MAX];

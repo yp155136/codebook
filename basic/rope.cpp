@@ -2,7 +2,6 @@
 using namespace __gnu_cxx;
 
 rope<int> *p[N],*sz[N];  //use merge by size
-
 int pp[N],szz[N];
 
 int ret = p[ver]->at(x);

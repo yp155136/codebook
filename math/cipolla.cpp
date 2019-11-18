@@ -1,12 +1,3 @@
-#include <iostream>
-#include <cassert>
-#include <ctime>
-using namespace std;
-typedef long long ll;
-typedef pair<ll,ll> pll;
-#define F first
-#define S second
- 
 struct Cipolla
 {
     ll p, n, a, w;
@@ -44,13 +35,3 @@ struct Cipolla
         return ii.F;
     }
 };
-int main(){
-    srand(time(0));
-    ll p, n;
-    while(cin >> p) {
-        cin >> n;
-        Cipolla C(p, n);
-        cout << C.solve() << '\n';
-    }
-    return 0;
-}

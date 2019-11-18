@@ -7,13 +7,9 @@ n variables
 m constraints
 A is m by n
 */
-#include <bits/stdc++.h>
-using namespace std;
 const int MAX = 45;
 int n, m;
 double arr[MAX][MAX];
-const double eps = 1e-8;
-const double INF = 1e9;
 bool pro(){
     double mi = 0;
     int x = 1;

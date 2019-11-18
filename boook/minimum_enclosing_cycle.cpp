@@ -1,5 +1,4 @@
-pdd arr[MAX];
-pdd cen;
+pdd arr[MAX], cen;
 double r;
 inline double dis(pdd a,pdd b){	return hypot(a.X-b.X,a.Y-b.Y);	}
 int n,m;

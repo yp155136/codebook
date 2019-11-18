@@ -3,11 +3,9 @@
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,sse4.2,popcnt,abm,mmx,avx,tune=native")
 #pragma GCC diagnostic ignored "-W"
 
-mt19937 rng(0x5EED);
+mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 int randint(int lb, int ub)
 { return uniform_int_distribution<int>(lb, ub)(rng); }
-
-#define SECs (clock() / CLOCKS_PER_SEC)
 
 struct KeyHasher {
 	size_t operator()(const Key& k) const {
@@ -25,7 +23,6 @@ Returns the number of 1-bits in x.
 */
 
 /*increase stack*/
-
 const int size = 256 << 20;
 register long rsp asm("rsp");
 char *p = (char*)malloc(size) + size, *bak = (char*)rsp;
@@ -51,4 +48,3 @@ __asm__("movq %0, %%rsp\n"::"r"(bak));
 698377680  1280, 735134400  1344
 1102701600 1440, 1396755360 1536
 */
-

@@ -27,9 +27,8 @@ struct SW {
             }
             if (mx == -1) break;
             vis[mx_id] = true;
-            s = t;
-            t = mx_id;
-            for (int i=0;i<n;++i) {
+            s = t; t = mx_id;
+            for (int i = 0; i < n; ++i) {
                 if (!vis[i] && !del[i]) {
                     wei[i] += adj[mx_id][i];
                 }
@@ -38,12 +37,12 @@ struct SW {
     }
     int solve() {
         int ret = 2147483647; //INF
-        for (int i=0;i<n-1;++i) {
-            int x,y;
-            search(x,y);
-            ret = min(ret,wei[y]);
+        for (int i = 0; i < n - 1; ++i) {
+            int x, y;
+            search(x, y);
+            ret = min(ret, wei[y]);
             del[y] = true;
-            for (int i=0;i<n;++i) {
+            for (int i = 0;i < n; ++i) {
                 adj[x][i] += adj[y][i];
                 adj[i][x] += adj[y][i];
             }

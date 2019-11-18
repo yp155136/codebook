@@ -1,7 +1,4 @@
 #define edge pair<int , PII>
-#define MAX 50090
-#define INF 0x3f3f3f3f
- 
 int n , sol[MAX];
 PII x[MAX];
 vector<edge> v;

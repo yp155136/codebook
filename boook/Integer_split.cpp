@@ -1,5 +1,3 @@
-#define MAX 50900
-#define mod 1000000007LL
 int n , dp[MAX];
 int32_t main(){
     dp[0] = 1;

@@ -1,6 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
-
 struct AC_Automata {
     static const int N = 2e4 + 6;
     static const int SIGMA = 26;
@@ -19,12 +16,11 @@ struct AC_Automata {
     int insert(string s,int v) {
         int now=0;
         int n=s.size();
-        for (int i=0;n>i;i++) {
+        for (int i = 0; i < n; ++i) {
             int c=idx(s[i]);
             if (!ch[now][c]) {
                 memset(ch[sz],0,sizeof(ch[sz]));
-                val[sz] = 0;
-                ch[now][c] = sz++;
+                val[sz] = 0; ch[now][c] = sz++;
             }
             now = ch[now][c];
         }
@@ -38,9 +34,8 @@ struct AC_Automata {
         }
     }
     void getFail() {
-        qs=0,qe=0;
-        fail[0]=0;
-        for (int c=0;SIGMA >c;c++) {
+        qs=0,qe=0; fail[0]=0;
+        for (int c = 0; c < SIGMA; c++) {
             int now=ch[0][c];
             if (now) {
                 fail[now] = 0;
@@ -50,7 +45,7 @@ struct AC_Automata {
         }
         while (qs != qe) {
             int t=que[qs++];
-            for (int c=0;SIGMA > c;c++) {
+            for (int c = 0; c < SIGMA; c++) {
                 int now=ch[t][c];
                 if (!now) continue;
                 que[qe++] = now;
@@ -63,8 +58,7 @@ struct AC_Automata {
     }
     void Find(string s) {
         getFail();
-        int n=s.size();
-        int now=0;
+        int n=s.size(), now=0;
         for (int i=0;n>i;i++) {
             int c=idx(s[i]);
             while (now && !ch[now][c]) now = fail[now];
@@ -93,4 +87,3 @@ ac.init();
 ac.insert(s[i],i);
 ac.Find();
 ac.cnt[ ac.insert(s[i],i) ];
-

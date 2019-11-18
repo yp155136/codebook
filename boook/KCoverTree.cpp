@@ -1,5 +1,3 @@
-#define MAX 100090
-#define INF 0x3f3f3f3f
 int n , k , dp[MAX] , ans;
 vector<int> v[MAX];
 void DFS(int now , int fa){

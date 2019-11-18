@@ -1,6 +1,3 @@
-#define int long long
-#define MAX 50900
-
 int n , x[MAX] , ans = 0;
 vector<int> v;
 int DFS(int now){
