@@ -7,7 +7,7 @@
 \contentsline {subsection}{\numberline {1.6}Lawfung}{2}
 \contentsline {subsection}{\numberline {1.7}check}{2}
 \contentsline {section}{\numberline {2}Data Structure}{2}
-\contentsline {subsection}{\numberline {2.1}disjoint set}{2}
+\contentsline {subsection}{\numberline {2.1}Disjoint set}{2}
 \contentsline {subsection}{\numberline {2.2}Persistent treap}{2}
 \contentsline {subsection}{\numberline {2.3}Leftist Tree}{3}
 \contentsline {subsection}{\numberline {2.4}Link Cut Tree}{3}
@@ -28,7 +28,7 @@
 \contentsline {subsection}{\numberline {4.9}Rotating Calipers}{8}
 \contentsline {section}{\numberline {5}Graph}{8}
 \contentsline {subsection}{\numberline {5.1}Biconnected Component}{8}
-\contentsline {subsection}{\numberline {5.2}general graph macthing}{9}
+\contentsline {subsection}{\numberline {5.2}General graph macthing}{9}
 \contentsline {subsection}{\numberline {5.3}KM}{9}
 \contentsline {subsection}{\numberline {5.4}Maximum Weighted Matching(General Graph)}{9}
 \contentsline {subsection}{\numberline {5.5}Minimum mean cycle}{10}

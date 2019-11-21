@@ -8,7 +8,7 @@ struct Graph{
         //remember to set every array to 0
         stp = 0; e = 1; n = _n;
         for( int i = 1 ; i <= n ; i ++ )
-            lnk[i] = vis[i] = 0, per[i] = i;
+            head[i] = lnk[i] = vis[i] = 0, per[i] = i;
         //random_shuffle(per+1, per+n+1);
     }
     void add_edge(int u,int v){
