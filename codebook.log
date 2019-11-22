@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.7.11)  22 NOV 2019 00:16
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.7.11)  22 NOV 2019 11:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1373,31 +1373,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./graph/maximum_weighted_general_graph.cpp [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./graph/minimum_mean_cycle.cpp [10]) (./graph/HLD.cpp) (./graph/dynamicMST.cpp
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10])
+(./graph/minimum_mean_cycle.cpp) (./graph/HLD.cpp) (./graph/dynamicMST.cpp
 [11]) (./graph/MinimumSteinerTree.cpp) (./graph/maximum_clique.cpp [12])
 (./graph/zl.cpp) (./math/bigint.cpp [13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./math/fft2.cpp [14]) (./math/NTT.cpp) (./math/FWT.cpp) (./math/gauss.cpp
-[15]) (./math/miller_robin.cpp) (./math/Pollard_Rho.cpp) (./math/phi_n.cpp)
-(./math/debrujin.cpp [16]) (./math/simplex.cpp) (./math/cipolla.cpp)
-(./math/MDSWIN_2.cpp [17]) (./string/string_tool.cpp) (./string/AC_Machine.cpp
-[18]) (./string/suffix_array.cpp)
+[15]) (./math/miller_robin.cpp) (./math/Pollard_Rho.cpp) (./math/phi_n.cpp
+[16]) (./math/debrujin.cpp) (./math/simplex.cpp) (./math/cipolla.cpp) [17]
+(./math/MDSWIN_2.cpp) (./string/string_tool.cpp) (./string/AC_Machine.cpp
+[18]) (./string/suffix_array.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [19])
 (./string/minimum_rotation.cpp) (./boook/block_tree.cpp)
 (./boook/DancingLinkX.cpp [20]) (./boook/joseph_mlogn.cpp)
 (./boook/mid_speed_linear_recursion.cpp) (./boook/NOI_Problem.cpp [21])
 (./boook/Primitive_root.cpp) (./boook/same_remainder.cpp)
 (./boook/stone_merge.cpp [22]) (./boook/two_demical_bit_matrix.cpp)
-(./boook/Mahaton_Spanning_Tree.cpp)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23]
-(./boook/Integer_split.cpp) (./boook/KCoverTree.cpp) (./boook/MaximumMSum.cpp)
+(./boook/Mahaton_Spanning_Tree.cpp [23]) (./boook/Integer_split.cpp)
+(./boook/KCoverTree.cpp) (./boook/MaximumMSum.cpp)
 (./boook/minimum_enclosing_cycle.cpp [24]) (./boook/tri.cpp)
 (./boook/hilbert.cpp) (./boook/next_perm.cpp) (./boook/ioimooeee_transfer.cpp)
 [25] (./codebook.aux)
@@ -1406,10 +1406,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23254 strings out of 494988
- 438928 string characters out of 6178638
+ 23256 strings out of 494988
+ 438950 string characters out of 6178638
  1149732 words of memory out of 5000000
- 26746 multiletter control sequences out of 15000+600000
+ 26748 multiletter control sequences out of 15000+600000
  531763 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  39i,12n,65p,10409b,1608s stack positions out of 5000i,500n,10000p,200000b,80000s
